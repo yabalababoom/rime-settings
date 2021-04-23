@@ -30,15 +30,13 @@
   
   ## 配置文件说明
   - `default.custom.yaml` 设置输入法、如何切换输入法、翻页等
-  - `squirrel.custom.yaml` 设置哪些软件默认英文输入，输入法皮肤等
   - `custom_phrase.txt` 设置快捷输入，修改完成后要重新部署才能生效
   配置文件中大部分都有注释。
 
   ## 几个你可能会关注的问题
   ### 1、怎么添加输入法皮肤？
   该配置默认只有3种皮肤，添加皮肤的方法如下：
-  先添加皮肤配置到`squirrel.custom.yaml` 文件，
-  再将`squirrel.custom.yaml`中的输入法配置，复制添加到`weasel.custom.yaml`之中，在输入法设定中即可看到新增加的皮肤。
+  将下载的`weasel.custom.yaml`先备份保存到任意地方，添加配置皮肤后，另存到Rime配置文件夹，重新部属后，该文件会变换成另一种样式，不方便更改，所以原文件可以保留。
 
   ### 2、编辑拓展词库？
   将词库文件拷贝到文件夹，修改 `luna_pinyin.extended.dict.yaml`文件
